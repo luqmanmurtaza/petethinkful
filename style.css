@@ -29,6 +29,11 @@ p {
   line-height: 1.5;
 }
 
+ul, ol {
+  text-align: left;
+  padding-left: 40px;
+}
+
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
@@ -60,6 +65,15 @@ a {
   text-decoration: none;
 }
 
-a:hover {color: #f77f00;}
+a:hover {
+  color: #f77f00;
   text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
 }
